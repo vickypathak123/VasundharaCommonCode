@@ -1,0 +1,2 @@
+com/example/daliynotification/BuildConfig.java
+ com.example.daliynotification.BuildConfig

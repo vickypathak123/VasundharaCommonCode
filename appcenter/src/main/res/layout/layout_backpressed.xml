@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rec_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/iv_back_top"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@color/colorPrimary"
+                app:riv_corner_radius_top_left="@dimen/_2sdp"
+                app:riv_corner_radius_top_right="@dimen/_2sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/label_recommended_apps"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_share"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_12sdp"
+                android:src="@drawable/ic_share"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/back_rv_more_apps"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+            app:layout_constraintVertical_weight="1"
+            app:spanCount="3" />
+
+        <LinearLayout
+            android:id="@+id/constraintLayout22"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp">
+
+            <RelativeLayout
+                android:id="@+id/relative_exit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_1sdp"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toStartOf="@+id/relative_cancel"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/iv_back_exit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@color/colorPrimary"
+                    app:riv_corner_radius_bottom_left="@dimen/_2sdp" />
+
+                <TextView
+                    android:id="@+id/tv_exit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/label_exit"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_15ssp" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/relative_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginLeft="@dimen/_1sdp"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toStartOf="@+id/relative_exit"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/iv_back_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@color/colorPrimary"
+                    app:riv_corner_radius_bottom_right="@dimen/_2sdp" />
+
+                <TextView
+                    android:id="@+id/tv_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@android:string/cancel"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_15ssp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">More Apps</string>
+    <string name="label_retry">Retry</string>
+    <string name="label_offline">Offline</string>
+    <string name="label_success">Success</string>
+    <string name="label_check_internet">Please check your internet connection and try again</string>
+    <string name="label_went_wrong">Something went wrong, Pleas try again later</string>
+    <string name="more_apps">More Apps</string>
+    <string name="label_thumb">thumb</string>
+    <string name="download">Download</string>
+    <string name="label_installs">1,00,000-5,00,000</string>
+    <string name="label_recommended_apps">Recommended Apps</string>
+    <string name="label_exit">Exit</string>
+    <string name="remove_ads">Ads remove successfully from app. Enjoy the app without any interference.</string>
+    <string name="label_more_apps">\u25CF More Apps From Developer \u25CF</string>
+    <string name="ask_remove_ads">Do you want to remove ads?</string>
+    <string name="email_id">jay.vasundhara@gmail.com</string>
+    <string name="feedback_message">Please take some time and give us your valuable feedback so we can provide better and better service in our next build.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daily_3_apps">Daily 3 Apps</string>
+
+    <!-- Network url-->
+     <string name="base_url_apps">aHR0cDovLzE2MS4zNS4xMTkuMjI3L2FydHdvcmtfY2FjaGUvYXBpL0FkdmVydGlzZU5ld0FwcGxpY2F0aW9ucy8xNy8=</string>
+  <!--  <string name="base_url_apps_old">aHR0cDovLzEzLjEyNy4xMDcuMTg2L2FydHdvcmtfYXBwcy9hcGkvQWR2ZXJ0aXNlTmV3QXBwbGljYXRpb25zLzE3Lw==</string>-->
+
+
+    <!-- Force Update -->
+    <string name="update_required">Update Required</string>
+    <string name="update_message">We\'ve noticed that you\'ve been using the deprecated application version for a long time. Please update to the latest version and enjoy the app.</string>
+    <string name="update_positive">Update</string>
+    <string name="update_negative">Dismiss</string>
+    <string name="pkg_not_exist">This package not available in application list</string>
+
+    <!-- Feedback -->
+    <string name="feedback">Feedback</string>
+    <string name="describe_your_problem">Please describe your problem detail</string>
+    <string name="enter_your_issue_details">Enter your issue details</string>
+    <string name="upload_image">Please upload an image</string>
+    <string name="enter_email">Please enter your email or phone number</string>
+    <string name="contact_information">Your contact information help us to reach you</string>
+    <string name="submit">Submit</string>
+</resources>

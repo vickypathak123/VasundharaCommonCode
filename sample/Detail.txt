@@ -1,0 +1,27 @@
+App Name : 
+Package name : 
+App version: 
+Alise Name : 
+Password : 
+
+Description Link :
+
+Product Key : 
+Licence key : 
+
+
+Admob Sheet: Tools Application Developer => 1
+Sheet Link: 
+
+Google Admob Ads IDs:
+App ID:
+Banner ID:
+Interstitial ID:
+Native Advance ID:
+Rewared Video ID:
+
+Subscription keys:
+Weekly:
+Monyhly:
+Yearly:
+

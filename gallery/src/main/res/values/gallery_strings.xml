@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="album_name_all">All Media</string>
+
+    <string name="button_preview">Preview</string>
+    <string name="button_apply_default">Done</string>
+    <string name="button_apply_select">Select</string>
+    <string name="button_apply">Done(%1$d)</string>
+    <string name="button_back">Back</string>
+    <string name="photo_grid_capture">Camera</string>
+    <string name="empty_text">No media yet</string>
+    <string name="button_ok">OK</string>
+
+    <string name="error_over_count_default">You have reached max selectable</string>
+    <string name="error_over_count">You can only select up to %1$d media files</string>
+    <string name="error_min_count">Please select at least %1$d media files</string>
+    <string name="error_under_quality">Under quality</string>
+    <string name="error_over_quality">Over quality</string>
+    <string name="error_file_type">Unsupported file type</string>
+    <string name="error_type_conflict">Can\'t select images and videos at the same time</string>
+    <string name="error_no_video_activity">No App found supporting video preview</string>
+    <string name="error_over_original_size">Can\'t select the images larger than %1$d MB</string>
+    <string name="error_over_original_count">%1$d images over %2$d MB. Original will be unchecked</string>
+    <string name="button_original">Original</string>
+    <string name="button_sure_default">Sure</string>
+    <string name="button_sure">Sure(%1$d)</string>
+
+
+    <plurals name="error_over_count">
+        <item quantity="one">You can select up to %1$d files</item>
+        <item quantity="few">You can select up to %1$d files</item>
+        <item quantity="many">You can select up to %1$d files</item>
+        <item quantity="other">You can select up to %1$d files</item>
+    </plurals>
+
+
+    <!--ToDo: Google Test Ads id-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_interstitialad_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--ToDo: Crop image-->
+    <string name="label_image_crop">Crop Image</string>
+    <string name="label_crop_image">Crop Image</string>
+    <string name="label_fit_image">FIT IMAGE</string>
+    <string name="label_square">SQUARE</string>
+    <string name="label_3_4">3:4</string>
+    <string name="label_4_3">4:3</string>
+    <string name="label_9_16">9:16</string>
+    <string name="label_16_9">16:9</string>
+    <string name="label_7_5">7:5</string>
+    <string name="label_free">FREE</string>
+    <string name="label_circle">CIRCLE</string>
+    <string name="label_circle_square">CIRCLE_SQUARE</string>
+    <string name="label_cancel_image_crop">Cancelled an image cropping</string>
+    <string name="label_failed_image_crop">Sorry! Failed to crop an image</string>
+</resources>

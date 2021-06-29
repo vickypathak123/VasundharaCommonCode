@@ -1,0 +1,6 @@
+
+include ':gallery'
+include ':daliynotification'
+rootProject.name='AppCenter'
+include ':app'
+include ':appcenter'
