@@ -2,7 +2,7 @@
 Common code that is required in every app of Vasundhara Infotech 	
 
 #### Screenshots
-<img src="https://github.com/jignesh8992/VasuCommonCode/blob/master/screenshots/1.png" width="250"/> <img src="https://github.com/jignesh8992/VasuCommonCode/blob/master/screenshots/4.png" width="250"/> <img src="https://github.com/jignesh8992/VasuCommonCode/blob/master/screenshots/3.png" width="250"/>
+<img src="https://github.com/vickypathak123/VasundharaCommonCode/blob/master/screenshots/1.png" width="250"/> <img src="https://github.com/vickypathak123/VasundharaCommonCode/blob/master/screenshots/4.png" width="250"/> <img src="https://github.com/vickypathak123/VasundharaCommonCode/blob/master/screenshots/3.png" width="250"/>
 	
 #### Following points are covered in this code:
 1. [Force update](https://github.com/jignesh8992/VasuCommonCode/blob/a60c57b585a4b193385c23ccaade4d3f0c16c7b0/app/src/main/java/com/vasu/appcenter/SplashActivity.kt#L92)
@@ -30,7 +30,7 @@ Common code that is required in every app of Vasundhara Infotech
 2. API request must be using POST method
 
 #### Splash screen follow must be below pattern <br>
-<img src="https://github.com/jignesh8992/VasuCommonCode/blob/master/screenshots/flow_chart.png" height="auto" width="600"/>
+<img src="https://github.com/vickypathak123/VasundharaCommonCode/blob/master/screenshots/flow_chart.png" height="auto" width="600"/>
 
 #### Points to remember at app upload time:
 1. Make sure   \<uses-permission android:name="com.android.vending.BILLING"/\> permission is added in [AndroidManifest.xml file](https://github.com/jignesh8992/VasuCommonCode/blob/93d89ef066b404bfb7c7460844e6fee57d662802/app/src/main/AndroidManifest.xml#L7)
