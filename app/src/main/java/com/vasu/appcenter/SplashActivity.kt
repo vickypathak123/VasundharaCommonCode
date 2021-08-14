@@ -84,7 +84,7 @@ class SplashActivity : BaseActivity(), InterstitialAdHelper.InterstitialAdListen
         }
 
 
-        if (mContext.isOnline()) {
+        if (mContext.isOnline) {
 
             // Fetch App center data from the server
             if (isSDKBelow21()) {

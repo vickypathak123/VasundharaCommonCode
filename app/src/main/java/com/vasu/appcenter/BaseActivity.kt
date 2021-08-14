@@ -10,9 +10,6 @@ import kotlin.coroutines.CoroutineContext
 
 abstract class BaseActivity : BaseActivity(), CoroutineScope {
 
-
-
-
     lateinit var job: Job
 
     override val coroutineContext: CoroutineContext

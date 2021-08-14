@@ -241,7 +241,7 @@ class FeedbackActivity : BaseActivity() {
         } else if (!edt_email.text.toString().isValidContactInformation()) {
             edt_email.error = "Please enter valid contact detail"
         } else {
-            if (isOnline()) {
+            if (isOnline) {
                 edt_details.error = null
                 edt_email.error = null
                 callShareAPI()
@@ -271,7 +271,7 @@ class FeedbackActivity : BaseActivity() {
             version_name = fieldName
         )
 
-        if (mContext.isOnline()) {
+        if (mContext.isOnline) {
             // Fetch App center data from the server
             if (isSDKBelow21()) {
                 // Simple json parsing

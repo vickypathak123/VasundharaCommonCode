@@ -39,31 +39,32 @@ fun Activity.isLastActivity(): Boolean {
  * @return true if you have the internet connection, or false if not.
  */
 @Suppress("DEPRECATION")
-fun Context.isOnline(): Boolean {
-    val connectivityManager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-        val capabilities =
-            connectivityManager.getNetworkCapabilities(connectivityManager.activeNetwork)
-        if (capabilities != null) {
-            return when {
-                capabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR)
-                        || capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI)
-                        || capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> return true
-                else -> false
+inline val Context.isOnline: Boolean
+    get() {
+        val connectivityManager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            val capabilities =
+                connectivityManager.getNetworkCapabilities(connectivityManager.activeNetwork)
+            if (capabilities != null) {
+                return when {
+                    capabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR)
+                            || capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI)
+                            || capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> return true
+                    else -> false
+                }
+            }
+        } else {
+            try {
+                val activeNetworkInfo: NetworkInfo? = connectivityManager.activeNetworkInfo
+                if (activeNetworkInfo != null && activeNetworkInfo.isConnected) {
+                    return true
+                }
+            } catch (e: Exception) {
+                Log.e("isNetworkAvailable", e.toString())
             }
         }
-    } else {
-        try {
-            val activeNetworkInfo: NetworkInfo? = connectivityManager.activeNetworkInfo
-            if (activeNetworkInfo != null && activeNetworkInfo.isConnected) {
-                return true
-            }
-        } catch (e: Exception) {
-            Log.e("isNetworkAvailable", e.toString())
-        }
+        return false
     }
-    return false
-}
 
 
 fun isValidContextForGlide(context: Context?): Boolean {

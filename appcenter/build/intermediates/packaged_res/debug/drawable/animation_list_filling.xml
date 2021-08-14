@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift1"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift2"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift3"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift4"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift5"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift6"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift7"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift8"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift9"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift10"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift11"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift12"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift13"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift14"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/gift15"/>
+
+</animation-list>

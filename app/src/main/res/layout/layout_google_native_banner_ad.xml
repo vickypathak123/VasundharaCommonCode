@@ -1,11 +1,12 @@
 <com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="#FFFFFF"
         android:minHeight="50dp"
@@ -13,8 +14,11 @@
 
 
         <LinearLayout
+            android:id="@+id/ll_main_contain"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_ad"
+            android:layout_marginBottom="3dp"
             android:gravity="center_vertical"
             android:orientation="vertical"
             android:paddingLeft="10dp"
@@ -25,25 +29,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
 
                 <com.google.android.gms.ads.nativead.MediaView
                     android:id="@+id/ad_media"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
                     android:layout_gravity="center_horizontal"
                     android:visibility="gone" />
 
                 <ImageView
                     android:id="@+id/ad_app_icon"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
                     android:adjustViewBounds="true"
-                    android:scaleType="centerCrop" />
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
 
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
                     android:orientation="vertical">
@@ -79,9 +86,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:maxLines="3"
-                        android:textColor="@color/black"
                         android:text="@string/add_text"
-                        android:textSize="10sp" />
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        tools:ignore="SmallSp" />
 
 
                 </LinearLayout>
@@ -110,6 +118,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/txt_ad"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
@@ -118,20 +127,24 @@
             android:paddingRight="@dimen/_5sdp"
             android:text="Ad"
             android:textColor="@color/white"
-            android:textSize="12sp" />
+            android:textSize="12sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
 
         <TextView
             android:id="@+id/ad_advertiser"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_margin="5dp"
             android:gravity="bottom"
             android:maxLines="1"
             android:textSize="9sp"
-            android:textStyle="bold" />
-
+            android:textStyle="bold"
+            tools:ignore="SmallSp"
+            android:layout_below="@id/ll_main_contain"
+            android:visibility="gone" />
 
     </RelativeLayout>
 </com.google.android.gms.ads.nativead.NativeAdView>

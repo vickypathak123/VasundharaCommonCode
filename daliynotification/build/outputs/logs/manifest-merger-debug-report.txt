@@ -1,53 +1,53 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:1:1-21:12
-INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:1:1-21:12
-INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:1:1-21:12
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:1:1-21:12
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:1:1-21:12
 	package
-		ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:2:5-44
-		INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
-		INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:2:5-44
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:1:11-69
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:3:5-80
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:3:5-80
 	android:name
-		ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:3:22-78
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:3:22-78
 application
-ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:4:5-20:19
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:4:5-20:19
 service#com.example.daliynotification.NotificationJobService
-ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:7:9-13:19
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:7:9-13:19
 	android:exported
-		ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:9:13-37
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:9:13-37
 	android:name
-		ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:8:13-51
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:8:13-51
 intent-filter#action:name:com.firebase.jobdispatcher.ACTION_EXECUTE
-ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:10:13-12:29
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:10:13-12:29
 action#com.firebase.jobdispatcher.ACTION_EXECUTE
-ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:11:17-84
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:11:17-84
 	android:name
-		ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:11:25-81
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:11:25-81
 receiver#com.example.daliynotification.MyBootReceiver
-ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:15:9-19:20
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:15:9-19:20
 	android:name
-		ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:15:19-49
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:15:19-49
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:16:13-18:29
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:16:13-18:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:17:17-78
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:17:17-78
 	android:name
-		ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:17:25-76
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:17:25-76
 uses-sdk
-INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
-INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
-INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
-INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
-		ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
-		INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
-		ADDED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
-		INJECTED from E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference|color" name="album.dropdown.count.color"/>
+    <attr format="reference|color" name="album.dropdown.title.color"/>
+    <attr format="reference|color" name="album.element.color"/>
+    <attr format="reference" name="album.emptyView"/>
+    <attr format="reference|color" name="album.emptyView.textColor"/>
+    <attr format="reference|color" name="album.thumbnail.placeholder"/>
+    <attr format="reference|color" name="bottomToolbar.apply.textColor"/>
+    <attr format="reference|color" name="bottomToolbar.bg"/>
+    <attr format="reference|color" name="bottomToolbar.preview.textColor"/>
+    <attr format="reference|color" name="capture.textColor"/>
+    <attr format="reference|color" name="item.checkCircle.backgroundColor"/>
+    <attr format="reference|color" name="item.checkCircle.borderColor"/>
+    <attr format="reference|color" name="item.placeholder"/>
+    <attr format="reference" name="listPopupWindowStyle"/>
+    <attr format="reference|color" name="page.bg"/>
+    <attr format="reference|color" name="preview.bottomToolbar.apply.textColor"/>
+    <attr format="reference|color" name="preview.bottomToolbar.back.textColor"/>
+    <attr format="reference" name="toolbar"/>
+    <color name="album_dropdown_count_text">#999999</color>
+    <color name="album_dropdown_thumbnail_placeholder">#EAEEF4</color>
+    <color name="album_dropdown_title_text">#DE000000</color>
+    <color name="album_empty_view">#4D000000</color>
+    <color name="album_popup_bg">#FFFFFF</color>
+    <color name="bottom_toolbar_bg">#FFFFFF</color>
+    <color name="bottom_toolbar_preview_text">#DE000000</color>
+    <color name="bottom_toolbar_preview_text_disable">#4D000000</color>
+    <color name="capture">#424242</color>
+    <color name="check_original_radio_disable">#808080</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#4EAF4F</color>
+    <color name="colorPrimaryDark">#4EAF4F</color>
+    <color name="dracula_album_popup_bg">#34474E</color>
+    <color name="item_checkCircle_borderColor">#FFFFFF</color>
+    <color name="item_placeholder">#EAEEF4</color>
+    <color name="page_bg">#FFFFFF</color>
+    <color name="preview_bottom_size">#61FFFFFF</color>
+    <color name="preview_bottom_toolbar_back_text">#FFFFFF</color>
+    <color name="preview_bottom_toolbar_bg">#CC000000</color>
+    <dimen name="album_item_height">72dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="media_grid_size">48dp</dimen>
+    <dimen name="media_grid_spacing">4dp</dimen>
+    <dimen name="spacing">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_xlarge">24dp</dimen>
+    <dimen name="spacing_xsmall">4dp</dimen>
+    <dimen name="text_size_m">20sp</dimen>
+    <dimen name="text_size_s">16sp</dimen>
+    <plurals name="error_over_count">
+        <item quantity="one">You can select up to %1$d files</item>
+        <item quantity="few">You can select up to %1$d files</item>
+        <item quantity="many">You can select up to %1$d files</item>
+        <item quantity="other">You can select up to %1$d files</item>
+    </plurals>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_interstitialad_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="album_name_all">All Media</string>
+    <string name="button_apply">Done(%1$d)</string>
+    <string name="button_apply_default">Done</string>
+    <string name="button_apply_select">Select</string>
+    <string name="button_back">Back</string>
+    <string name="button_ok">OK</string>
+    <string name="button_original">Original</string>
+    <string name="button_preview">Preview</string>
+    <string name="button_sure">Sure(%1$d)</string>
+    <string name="button_sure_default">Sure</string>
+    <string name="cannot_select_malicious_image">You cannot select a malicious image</string>
+    <string name="empty_text">No media yet</string>
+    <string name="error_file_type">Unsupported file type</string>
+    <string name="error_min_count">Please select at least %1$d media files</string>
+    <string name="error_no_video_activity">No App found supporting video preview</string>
+    <string name="error_over_count">You can only select up to %1$d media files</string>
+    <string name="error_over_count_default">You have reached max selectable</string>
+    <string name="error_over_original_count">%1$d images over %2$d MB. Original will be unchecked</string>
+    <string name="error_over_original_size">Can\'t select the images larger than %1$d MB</string>
+    <string name="error_over_quality">Over quality</string>
+    <string name="error_type_conflict">Can\'t select images and videos at the same time</string>
+    <string name="error_under_quality">Under quality</string>
+    <string name="label_16_9">16:9</string>
+    <string name="label_3_4">3:4</string>
+    <string name="label_4_3">4:3</string>
+    <string name="label_7_5">7:5</string>
+    <string name="label_9_16">9:16</string>
+    <string name="label_cancel_image_crop">Cancelled an image cropping</string>
+    <string name="label_circle">CIRCLE</string>
+    <string name="label_circle_square">CIRCLE_SQUARE</string>
+    <string name="label_crop_image">Crop Image</string>
+    <string name="label_failed_image_crop">Sorry! Failed to crop an image</string>
+    <string name="label_fit_image">FIT IMAGE</string>
+    <string name="label_free">FREE</string>
+    <string name="label_image_crop">Crop Image</string>
+    <string name="label_square">SQUARE</string>
+    <string name="photo_grid_capture">Camera</string>
+    <style name="AppTheme.Button.Borderless" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:textSize">@dimen/text_size_s</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="Matisse.Zhihu" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="toolbar">@style/Toolbar.Zhihu</item>
+        <item name="album.dropdown.title.color">@color/album_dropdown_title_text</item>
+        <item name="album.dropdown.count.color">@color/album_dropdown_count_text</item>
+        <item name="album.element.color">@android:color/white</item>
+        <item name="album.thumbnail.placeholder">@color/album_dropdown_thumbnail_placeholder</item>
+        <item name="album.emptyView">@drawable/ic_empty_zhihu</item>
+        <item name="album.emptyView.textColor">@color/album_empty_view</item>
+        <item name="item.placeholder">@color/item_placeholder</item>
+        <item name="item.checkCircle.backgroundColor">@color/colorPrimary</item>
+        <item name="item.checkCircle.borderColor">@color/item_checkCircle_borderColor</item>
+        <item name="page.bg">@color/page_bg</item>
+        <item name="bottomToolbar.bg">@color/bottom_toolbar_bg</item>
+        <item name="bottomToolbar.preview.textColor">@color/gallery_bottom_toolbar_preview</item>
+        <item name="bottomToolbar.apply.textColor">@color/colorPrimary</item>
+        <item name="preview.bottomToolbar.back.textColor">@color/preview_bottom_toolbar_back_text</item>
+        <item name="preview.bottomToolbar.apply.textColor">@color/preview_bottom_toolbar_back_text</item>
+        <item name="listPopupWindowStyle">@style/Popup.Zhihu</item>
+        <item name="capture.textColor">@color/capture</item>
+    </style>
+    <style name="Popup.Dracula" parent="Widget.AppCompat.ListPopupWindow">
+        <item name="android:popupBackground">@color/dracula_album_popup_bg</item>
+    </style>
+    <style name="Popup.Zhihu" parent="Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/album_popup_bg</item>
+    </style>
+    <style name="Toolbar.Zhihu" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+</resources>

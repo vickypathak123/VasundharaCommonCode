@@ -1,7 +1,5 @@
 package com.vasu.appcenter.offlineads
 
-import android.app.DialogFragment
-import android.app.FragmentManager
 import android.content.DialogInterface
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -62,7 +62,7 @@ class TopsMoreAppsView(private val mContext: Context, attrs: AttributeSet) : Con
         ma_rv_more_apps.visibility = View.GONE
         layout_progrssbar.visibility = View.VISIBLE
 
-        if (mContext.isOnline()) {
+        if (mContext.isOnline) {
             // Fetch App center data from the server
             if (isSDKBelow21()) {
                 // Simple json parsing
@@ -107,7 +107,7 @@ class TopsMoreAppsView(private val mContext: Context, attrs: AttributeSet) : Con
 
         when (v) {
             tv_no_internet_retry, tv_went_wrong_retry -> {
-                if (mContext.isOnline()) {
+                if (mContext.isOnline) {
                     initData()
                 } else {
                     Toast.short(mContext, mContext.getString(R.string.label_check_internet))

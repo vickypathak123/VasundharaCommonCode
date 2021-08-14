@@ -11,8 +11,6 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -50,7 +48,7 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.5.2'
 
     // The Google SDK for Google Ads
-    implementation 'com.google.android.gms:play-services-ads:19.7.0'
+    implementation 'com.google.android.gms:play-services-ads:20.2.0'
 
     // The runtime permission SDK.
     implementation 'com.karumi:dexter:6.2.2'

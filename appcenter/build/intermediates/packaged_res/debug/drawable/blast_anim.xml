@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:drawable="@drawable/giftblast1"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast2"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast3"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast4"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast5"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast6"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast7"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast8"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast9"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast10"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast11"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast12"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast13"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast14"
+        android:duration="20" />
+
+    <item
+        android:drawable="@drawable/giftblast15"
+        android:duration="20" />
+
+</animation-list>

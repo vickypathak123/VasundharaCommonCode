@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    tools:targetApi="lollipop">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/list_apps_cl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.appcenter.widgets.SquareImageView
+            android:id="@+id/list_apps_iv_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:contentDescription="@string/label_thumb"
+            android:src="@drawable/thumb_small"
+            app:layout_constraintBottom_toTopOf="@+id/list_apps_tv_app_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:riv_corner_radius="@dimen/_10sdp" />
+
+
+        <ImageView
+            android:id="@+id/list_apps_iv_ad"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_ac_ad"
+            app:layout_constraintStart_toStartOf="@+id/list_apps_iv_thumb"
+            app:layout_constraintTop_toTopOf="@+id/list_apps_iv_thumb" />
+
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_ac_ad_text"
+            app:layout_constraintStart_toStartOf="@+id/list_apps_iv_thumb"
+            app:layout_constraintTop_toTopOf="@+id/list_apps_iv_thumb" />
+
+        <TextView
+            android:id="@+id/list_apps_tv_app_name"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:background="@drawable/shape_category_selected"
+            android:gravity="center"
+            android:paddingBottom="@dimen/_1sdp"
+            android:text="@string/download"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_9ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/list_apps_iv_thumb"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/list_apps_iv_thumb"
+            app:layout_constraintTop_toBottomOf="@+id/list_apps_iv_thumb" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

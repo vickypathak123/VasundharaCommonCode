@@ -1,7 +1,7 @@
 package com.vasu.appcenter
 
 import androidx.multidex.MultiDexApplication
-import com.onesignal.OneSignal
+//import com.onesignal.OneSignal
 import com.vasu.appcenter.pushnotifications.OneSignalNotificationHandler
 import io.github.inflationx.calligraphy3.CalligraphyConfig
 import io.github.inflationx.calligraphy3.CalligraphyInterceptor
@@ -27,10 +27,10 @@ open class AppController :  MultiDexApplication() {
 
 
         // OneSignal Initialization
-        OneSignal.startInit(this)
-            .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
-            .setNotificationOpenedHandler(OneSignalNotificationHandler(this))
-            .unsubscribeWhenNotificationsAreDisabled(true)
-            .init();
+//        OneSignal.startInit(this)
+//            .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+//            .setNotificationOpenedHandler(OneSignalNotificationHandler(this))
+//            .unsubscribeWhenNotificationsAreDisabled(true)
+//            .init();
     }
 }

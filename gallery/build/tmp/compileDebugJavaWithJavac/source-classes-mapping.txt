@@ -1,0 +1,141 @@
+com/example/gallery/internal/loader/AlbumMediaLoader.java
+ com.example.gallery.internal.loader.AlbumMediaLoader
+com/example/gallery/internal/entity/IncapableCause.java
+ com.example.gallery.internal.entity.IncapableCause
+ com.example.gallery.internal.entity.IncapableCause$Form
+com/example/gallery/internal/model/SelectedItemCollection.java
+ com.example.gallery.internal.model.SelectedItemCollection
+com/example/gallery/listener/OnCheckedListener.java
+ com.example.gallery.listener.OnCheckedListener
+com/example/gallery/AGallery.java
+ com.example.gallery.AGallery
+com/example/gallery/internal/model/AlbumMediaCollection.java
+ com.example.gallery.internal.model.AlbumMediaCollection
+ com.example.gallery.internal.model.AlbumMediaCollection$AlbumMediaCallbacks
+com/example/gallery/internal/utils/SingleMediaScanner.java
+ com.example.gallery.internal.utils.SingleMediaScanner
+ com.example.gallery.internal.utils.SingleMediaScanner$ScanListener
+com/example/gallery/internal/utils/PhotoMetadataUtils.java
+ com.example.gallery.internal.utils.PhotoMetadataUtils
+com/example/gallery/imagecrop/CropImageFragment.java
+ com.example.gallery.imagecrop.CropImageFragment
+ com.example.gallery.imagecrop.CropImageFragment$1
+ com.example.gallery.imagecrop.CropImageFragment$2
+ com.example.gallery.imagecrop.CropImageFragment$3
+ com.example.gallery.imagecrop.CropImageFragment$4
+ com.example.gallery.imagecrop.CropImageFragment$5
+com/example/gallery/internal/ui/widget/CheckView.java
+ com.example.gallery.internal.ui.widget.CheckView
+com/example/gallery/internal/ui/widget/SquareFrameLayout.java
+ com.example.gallery.internal.ui.widget.SquareFrameLayout
+com/example/gallery/internal/utils/UIUtils.java
+ com.example.gallery.internal.utils.UIUtils
+com/example/gallery/internal/ui/widget/MediaGridInset.java
+ com.example.gallery.internal.ui.widget.MediaGridInset
+com/example/gallery/MimeType.java
+ com.example.gallery.MimeType
+com/example/gallery/imagecrop/CropImageActivity.java
+ com.example.gallery.imagecrop.CropImageActivity
+com/example/gallery/internal/ui/adapter/AlbumMediaAdapter.java
+ com.example.gallery.internal.ui.adapter.AlbumMediaAdapter
+ com.example.gallery.internal.ui.adapter.AlbumMediaAdapter$1
+ com.example.gallery.internal.ui.adapter.AlbumMediaAdapter$CaptureViewHolder
+ com.example.gallery.internal.ui.adapter.AlbumMediaAdapter$CheckStateListener
+ com.example.gallery.internal.ui.adapter.AlbumMediaAdapter$MediaViewHolder
+ com.example.gallery.internal.ui.adapter.AlbumMediaAdapter$OnMediaClickListener
+ com.example.gallery.internal.ui.adapter.AlbumMediaAdapter$OnPhotoCapture
+com/example/gallery/engine/impl/PicassoEngine.java
+ com.example.gallery.engine.impl.PicassoEngine
+com/example/gallery/internal/loader/AlbumLoader.java
+ com.example.gallery.internal.loader.AlbumLoader
+com/example/gallery/listener/OnSelectedListener.java
+ com.example.gallery.listener.OnSelectedListener
+com/example/gallery/internal/ui/widget/CheckRadioView.java
+ com.example.gallery.internal.ui.widget.CheckRadioView
+com/example/gallery/internal/utils/ExifInterfaceCompat.java
+ com.example.gallery.internal.utils.ExifInterfaceCompat
+com/example/gallery/internal/ui/widget/RoundedRectangleImageView.java
+ com.example.gallery.internal.ui.widget.RoundedRectangleImageView
+com/example/gallery/internal/entity/Album.java
+ com.example.gallery.internal.entity.Album
+ com.example.gallery.internal.entity.Album$1
+com/example/gallery/internal/ui/widget/AlbumsSpinner.java
+ com.example.gallery.internal.ui.widget.AlbumsSpinner
+ com.example.gallery.internal.ui.widget.AlbumsSpinner$1
+ com.example.gallery.internal.ui.widget.AlbumsSpinner$2
+com/example/gallery/internal/ui/adapter/RecyclerViewCursorAdapter.java
+ com.example.gallery.internal.ui.adapter.RecyclerViewCursorAdapter
+com/example/gallery/internal/ui/widget/MediaGrid.java
+ com.example.gallery.internal.ui.widget.MediaGrid
+ com.example.gallery.internal.ui.widget.MediaGrid$OnMediaGridClickListener
+ com.example.gallery.internal.ui.widget.MediaGrid$PreBindInfo
+com/example/gallery/engine/ImageEngine.java
+ com.example.gallery.engine.ImageEngine
+com/example/gallery/ui/GalleryActivity.java
+ com.example.gallery.ui.GalleryActivity
+ com.example.gallery.ui.GalleryActivity$1
+ com.example.gallery.ui.GalleryActivity$2
+com/example/gallery/internal/utils/MediaStoreCompat.java
+ com.example.gallery.internal.utils.MediaStoreCompat
+com/example/gallery/imagecrop/ProgressDialogFragment.java
+ com.example.gallery.imagecrop.ProgressDialogFragment
+ com.example.gallery.imagecrop.ProgressDialogFragment$1
+com/example/gallery/engine/impl/GlideEngine.java
+ com.example.gallery.engine.impl.GlideEngine
+com/example/gallery/internal/ui/widget/PreviewViewPager.java
+ com.example.gallery.internal.ui.widget.PreviewViewPager
+com/example/gallery/internal/utils/Platform.java
+ com.example.gallery.internal.utils.Platform
+com/example/gallery/internal/ui/SelectedPreviewActivity.java
+ com.example.gallery.internal.ui.SelectedPreviewActivity
+com/example/gallery/internal/entity/Item.java
+ com.example.gallery.internal.entity.Item
+ com.example.gallery.internal.entity.Item$1
+com/example/gallery/internal/utils/PathUtils.java
+ com.example.gallery.internal.utils.PathUtils
+com/example/gallery/internal/entity/CaptureStrategy.java
+ com.example.gallery.internal.entity.CaptureStrategy
+com/example/gallery/internal/ui/widget/IncapableDialog.java
+ com.example.gallery.internal.ui.widget.IncapableDialog
+ com.example.gallery.internal.ui.widget.IncapableDialog$1
+com/example/gallery/internal/ui/adapter/PreviewPagerAdapter.java
+ com.example.gallery.internal.ui.adapter.PreviewPagerAdapter
+ com.example.gallery.internal.ui.adapter.PreviewPagerAdapter$OnPrimaryItemSetListener
+com/example/gallery/internal/entity/SelectionSpec.java
+ com.example.gallery.internal.entity.SelectionSpec
+ com.example.gallery.internal.entity.SelectionSpec$1
+ com.example.gallery.internal.entity.SelectionSpec$InstanceHolder
+com/example/gallery/listener/OnFragmentInteractionListener.java
+ com.example.gallery.listener.OnFragmentInteractionListener
+com/example/gallery/internal/ui/MediaSelectionFragment.java
+ com.example.gallery.internal.ui.MediaSelectionFragment
+ com.example.gallery.internal.ui.MediaSelectionFragment$SelectionProvider
+com/example/gallery/internal/ui/adapter/AlbumsAdapter.java
+ com.example.gallery.internal.ui.adapter.AlbumsAdapter
+com/example/gallery/internal/ui/BasePreviewActivity.java
+ com.example.gallery.internal.ui.BasePreviewActivity
+ com.example.gallery.internal.ui.BasePreviewActivity$1
+ com.example.gallery.internal.ui.BasePreviewActivity$2
+ com.example.gallery.internal.ui.BasePreviewActivity$ValidateImageTask
+com/example/gallery/internal/model/AlbumCollection.java
+ com.example.gallery.internal.model.AlbumCollection
+ com.example.gallery.internal.model.AlbumCollection$AlbumCallbacks
+com/example/gallery/BuildConfig.java
+ com.example.gallery.BuildConfig
+com/example/gallery/internal/ui/AlbumPreviewActivity.java
+ com.example.gallery.internal.ui.AlbumPreviewActivity
+com/example/gallery/internal/utils/Utils.java
+ com.example.gallery.internal.utils.Utils
+com/example/gallery/imagecrop/ResultActivity.java
+ com.example.gallery.imagecrop.ResultActivity
+ com.example.gallery.imagecrop.ResultActivity$LoadScaledImageTask
+ com.example.gallery.imagecrop.ResultActivity$LoadScaledImageTask$1
+com/example/gallery/internal/ui/PreviewItemFragment.java
+ com.example.gallery.internal.ui.PreviewItemFragment
+ com.example.gallery.internal.ui.PreviewItemFragment$1
+ com.example.gallery.internal.ui.PreviewItemFragment$2
+com/example/gallery/filter/Filter.java
+ com.example.gallery.filter.Filter
+com/example/gallery/SelectionCreator.java
+ com.example.gallery.SelectionCreator
+ com.example.gallery.SelectionCreator$ScreenOrientation

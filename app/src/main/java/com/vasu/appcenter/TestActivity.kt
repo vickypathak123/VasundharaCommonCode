@@ -9,6 +9,7 @@ import com.karumi.dexter.Dexter
 import com.karumi.dexter.MultiplePermissionsReport
 import com.karumi.dexter.PermissionToken
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener
+import com.vasu.appcenter.akshay.adshelper.AdMobAdsListener
 import com.vasu.appcenter.openad.isInternalCall
 import kotlinx.android.synthetic.main.activity_test.*
 
@@ -32,7 +33,6 @@ class TestActivity : BaseActivity() {
         btn_speak.setOnClickListener {
             checkAudioPermissions()
         }
-
 
     }
 

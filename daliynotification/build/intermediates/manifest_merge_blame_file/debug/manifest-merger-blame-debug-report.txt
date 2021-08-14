@@ -4,38 +4,38 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="15"
-6-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
+6-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="29" />
-7-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml
+7-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-9-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:3:5-80
-9-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:3:22-78
+9-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:3:5-80
+9-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:3:22-78
 10
 11    <application>
-11-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:4:5-20:19
+11-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:4:5-20:19
 12        <service
-12-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:7:9-13:19
+12-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:7:9-13:19
 13            android:name="com.example.daliynotification.NotificationJobService"
-13-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:8:13-51
+13-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:8:13-51
 14            android:exported="false" >
-14-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:9:13-37
+14-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:9:13-37
 15            <intent-filter>
-15-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:10:13-12:29
+15-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:10:13-12:29
 16                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
-16-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:11:17-84
-16-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:11:25-81
+16-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:11:17-84
+16-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:11:25-81
 17            </intent-filter>
 18        </service>
 19
 20        <receiver android:name="com.example.daliynotification.MyBootReceiver" >
-20-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:15:9-19:20
-20-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:15:19-49
+20-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:15:9-19:20
+20-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:15:19-49
 21            <intent-filter>
-21-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:16:13-18:29
+21-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:16:13-18:29
 22                <action android:name="android.intent.action.BOOT_COMPLETED" />
-22-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:17:17-78
-22-->E:\Github\VasuCommonCode\daliynotification\src\main\AndroidManifest.xml:17:25-76
+22-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:17:17-78
+22-->/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/daliynotification/src/main/AndroidManifest.xml:17:25-76
 23            </intent-filter>
 24        </receiver>
 25    </application>

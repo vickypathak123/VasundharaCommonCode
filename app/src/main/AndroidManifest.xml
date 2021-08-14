@@ -21,10 +21,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="LockedOrientationActivity">
+
+        <activity
+            android:name=".akshay.activity.LoadAdActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".offlineads.OfflineAdActivity"
-            android:screenOrientation="portrait" />
-        <!-- Google Admob ads initialize -->
+            android:screenOrientation="portrait" /> <!-- Google Admob ads initialize -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/admob_app_id" />
@@ -33,21 +43,18 @@
             android:name=".AdsMainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/SplashViewTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <!-- <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>-->
         </activity>
         <activity
             android:name=".rateandfeedback.FeedbackActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait" />
-
-        <!-- Firebase Messaging -->
+            android:screenOrientation="portrait" /> <!-- Firebase Messaging -->
         <service
             android:name=".pushnotifications.MyFirebaseMessagingService"
             android:exported="false">

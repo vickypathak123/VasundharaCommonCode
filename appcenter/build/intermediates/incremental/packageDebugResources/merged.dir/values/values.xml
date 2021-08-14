@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#4EAF4F</color>
+    <color name="colorPrimaryDark">#4EAF4F</color>
+    <color name="text_empty">#415D67</color>
+    <string name="app_name">More Apps</string>
+    <string name="ask_remove_ads">Do you want to remove ads?</string>
+    <string name="base_url_apps">aHR0cDovLzE2MS4zNS4xMTkuMjI3L2FydHdvcmtfY2FjaGUvYXBpL0FkdmVydGlzZU5ld0FwcGxpY2F0aW9ucy8xNy8=</string>
+    <string name="contact_information">Your contact information help us to reach you</string>
+    <string name="daily_3_apps">Daily 3 Apps</string>
+    <string name="describe_your_problem">Please describe your problem detail</string>
+    <string name="download">Download</string>
+    <string name="email_id">jay.vasundhara@gmail.com</string>
+    <string name="enter_email">Please enter your email or phone number</string>
+    <string name="enter_your_issue_details">Enter your issue details</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_message">Please take some time and give us your valuable feedback so we can provide better and better service in our next build.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_check_internet">Please check your internet connection and try again</string>
+    <string name="label_exit">Exit</string>
+    <string name="label_installs">1,00,000-5,00,000</string>
+    <string name="label_more_apps">\u25CF More Apps From Developer \u25CF</string>
+    <string name="label_offline">Offline</string>
+    <string name="label_recommended_apps">Recommended Apps</string>
+    <string name="label_retry">Retry</string>
+    <string name="label_success">Success</string>
+    <string name="label_thumb">thumb</string>
+    <string name="label_went_wrong">Something went wrong, Pleas try again later</string>
+    <string name="more_apps">More Apps</string>
+    <string name="pkg_not_exist">This package not available in application list</string>
+    <string name="remove_ads">Ads remove successfully from app. Enjoy the app without any interference.</string>
+    <string name="submit">Submit</string>
+    <string name="update_message">We\'ve noticed that you\'ve been using the deprecated application version for a long time. Please update to the latest version and enjoy the app.</string>
+    <string name="update_negative">Dismiss</string>
+    <string name="update_positive">Update</string>
+    <string name="update_required">Update Required</string>
+    <string name="upload_image">Please upload an image</string>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="LabelHomeTitleMA" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_20sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <declare-styleable name="PageIndicatorView">
+        <attr name="piv_orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr format="reference" name="piv_viewPager"/>
+        <attr format="integer" name="piv_select"/>
+
+        <attr format="integer" name="piv_count"/>
+        <attr format="boolean" name="piv_dynamicCount"/>
+
+        <attr format="dimension" name="piv_radius"/>
+        <attr format="dimension" name="piv_padding"/>
+        <attr format="dimension" name="piv_strokeWidth"/>
+        <attr format="float" name="piv_scaleFactor"/>
+        <attr format="boolean" name="piv_autoVisibility"/>
+
+        <attr format="color" name="piv_unselectedColor"/>
+        <attr format="color" name="piv_selectedColor"/>
+
+        <attr format="boolean" name="piv_interactiveAnimation"/>
+        <attr format="integer" name="piv_animationDuration"/>
+        <attr name="piv_animationType">
+            <enum name="none" value="0"/>
+            <enum name="color" value="1"/>
+            <enum name="scale" value="2"/>
+            <enum name="worm" value="3"/>
+            <enum name="slide" value="4"/>
+            <enum name="fill" value="5"/>
+            <enum name="thinWorm" value="6"/>
+            <enum name="drop" value="7"/>
+            <enum name="swap" value="8"/>
+            <enum name="scale_down" value="9"/>
+        </attr>
+        <attr name="piv_rtl_mode">
+            <enum name="on" value="0"/>
+            <enum name="off" value="1"/>
+            <enum name="auto" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="SliderView">
+
+        <attr name="sliderIndicatorOrientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr format="dimension" name="sliderIndicatorRadius"/>
+        <attr format="dimension" name="sliderIndicatorPadding"/>
+        <attr format="dimension" name="sliderIndicatorMargin"/>
+        <attr format="dimension" name="sliderIndicatorMarginLeft"/>
+        <attr format="dimension" name="sliderIndicatorMarginRight"/>
+        <attr format="dimension" name="sliderIndicatorMarginTop"/>
+        <attr format="dimension" name="sliderIndicatorMarginBottom"/>
+
+        <attr name="sliderIndicatorGravity">
+            <flag name="bottom" value="80"/>
+            <flag name="center" value="17"/>
+            <flag name="center_horizontal" value="1"/>
+            <flag name="center_vertical" value="16"/>
+            <flag name="clip_horizontal" value="8"/>
+            <flag name="clip_vertical" value="128"/>
+            <flag name="end" value="8388613"/>
+            <flag name="fill" value="119"/>
+            <flag name="fill_horizontal" value="7"/>
+            <flag name="fill_vertical" value="112"/>
+            <flag name="left" value="3"/>
+            <flag name="right" value="5"/>
+            <flag name="start" value="8388611"/>
+            <flag name="top" value="48"/>
+        </attr>
+
+        <attr format="color" name="sliderIndicatorUnselectedColor"/>
+        <attr format="color" name="sliderIndicatorSelectedColor"/>
+        <attr format="integer" name="sliderIndicatorAnimationDuration"/>
+        <attr format="integer" name="sliderAnimationDuration"/>
+
+        <attr name="sliderIndicatorRtlMode">
+            <enum name="on" value="0"/>
+            <enum name="off" value="1"/>
+            <enum name="auto" value="2"/>
+        </attr>
+
+        <attr format="integer" name="sliderScrollTimeInSec"/>
+        <attr format="boolean" name="sliderAutoCycleEnabled"/>
+        <attr format="boolean" name="sliderStartAutoCycle"/>
+
+        <attr name="sliderAutoCycleDirection">
+            <enum name="right" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="back_and_forth" value="2"/>
+        </attr>
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:9:22-62
+application
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:11:5-38:19
+	tools:ignore
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:13:9-49
+	android:usesCleartextTraffic
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:12:9-44
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:16:9-18:52
+	android:value
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:18:13-49
+	android:name
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:17:13-69
+activity#com.example.gallery.ui.GalleryActivity
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:21:9-23:52
+	android:screenOrientation
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:22:13-47
+activity#com.example.gallery.internal.ui.AlbumPreviewActivity
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:24:9-26:52
+	android:screenOrientation
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:26:13-49
+	android:name
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:25:13-61
+activity#com.example.gallery.internal.ui.SelectedPreviewActivity
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:27:9-29:52
+	android:screenOrientation
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:28:13-64
+activity#com.example.gallery.imagecrop.CropImageActivity
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:32:9-34:52
+	android:screenOrientation
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:33:13-56
+activity#com.example.gallery.imagecrop.ResultActivity
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:35:9-37:52
+	android:screenOrientation
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml:36:13-53
+uses-sdk
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/src/main/AndroidManifest.xml

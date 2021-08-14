@@ -82,7 +82,7 @@ class OpenAdSplashActivity : BaseActivity(), InAppPurchaseHelper.OnPurchased {
         }
 
 
-        if (mContext.isOnline()) {
+        if (mContext.isOnline) {
             // Fetch App center data from the server
             if (isSDKBelow21()) {
                 // Simple json parsing

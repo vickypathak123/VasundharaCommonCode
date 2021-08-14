@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_ads_main.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_ads_main.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_feedback.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_feedback.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_load_ad.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_load_ad.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_google_native_banner_ad.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_google_native_banner_ad.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/all_screen_header.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/all_screen_header.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/example_dialog.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/example_dialog.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_ad_view_dialog.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_ad_view_dialog.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_dialog_exit.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_dialog_exit.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_ad_view.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_ad_view.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_offline_ad.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_offline_ad.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_test.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_test.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_dialog_rate_us.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_dialog_rate_us.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_gift_icon.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_gift_icon.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/view_gift_ad.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/view_gift_ad.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_google_native_dialog_ad.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_google_native_dialog_ad.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_google_native_banner_small_ad.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_google_native_banner_small_ad.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_google_native_ad.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_google_native_ad.xml"
+    }
+]
