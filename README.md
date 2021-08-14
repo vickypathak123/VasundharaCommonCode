@@ -170,8 +170,8 @@ If you find any bug when using Vasu Common Code, please report [here](https://gi
 	    <sub>Sr. Android Developer<sub>
 </td>
 <td align="center">
-	    <a href="https://github.com/">
-	    <img src="https://avatars3.githubusercontent.com/u/12335761?v=4?s=100" height="auto" width="50" style="border-radius:50%"/>
+	    <a href="https://github.com/AkshayHarsoda">
+	    <img src="https://avatars.githubusercontent.com/u/80841529?v=4?s=100" height="auto" width="50" style="border-radius:50%"/>
 	    <br/>
   	    <b>Akshay Harsoda</b></sub></a>
 	    <br/>

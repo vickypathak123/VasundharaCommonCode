@@ -88,12 +88,12 @@
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_ads_main.xml"
     },
     {
-        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_all_screen_header.xml.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/all_screen_header.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
@@ -120,12 +120,12 @@
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-hdpi/ic_gif.png"
     },
     {
-        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_empty_zhihu.png.flat",
-        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-xxxhdpi/ic_empty_zhihu.png"
-    },
-    {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-xxhdpi_gallery_ic_fullscreen.png.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-xxhdpi/gallery_ic_fullscreen.png"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_empty_zhihu.png.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-xxxhdpi/ic_empty_zhihu.png"
     },
     {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_arrow_drop_down_white_24dp.png.flat",

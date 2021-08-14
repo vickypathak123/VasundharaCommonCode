@@ -3941,6 +3941,7 @@ id showTitle
 id show_always
 id show_interstitial_ads
 id show_on_touch
+id show_reward_interstitial_ads
 id show_reward_video_ads
 id sin
 id size

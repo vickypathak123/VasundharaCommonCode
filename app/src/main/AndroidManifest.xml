@@ -43,7 +43,18 @@
             android:name=".AdsMainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/SplashViewTheme">
-            <!-- <intent-filter>
+             <!--<intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashViewTheme">
+             <!--<intent-filter>
                  <action android:name="android.intent.action.MAIN" />
 
                  <category android:name="android.intent.category.LAUNCHER" />

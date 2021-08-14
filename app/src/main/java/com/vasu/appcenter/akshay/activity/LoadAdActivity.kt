@@ -7,6 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import com.vasu.appcenter.akshay.adshelper.*
 import com.vasu.appcenter.akshay.adshelper.InterstitialAdHelper.isShowInterstitialAd
+import com.vasu.appcenter.akshay.adshelper.InterstitialRewardHelper.isShowRewardedInterstitialAd
+import com.vasu.appcenter.akshay.adshelper.InterstitialRewardHelper.showRewardedInterstitialAd
 import com.vasu.appcenter.akshay.adshelper.RewardVideoHelper.isShowRewardVideoAd
 import com.vasu.appcenter.akshay.adshelper.RewardVideoHelper.showRewardVideoAd
 import com.vasu.appcenter.akshay.base.BaseBindingActivity
@@ -27,6 +29,7 @@ class LoadAdActivity : BaseBindingActivity<ActivityLoadAdBinding>() {
 
         InterstitialAdHelper.loadInterstitialAd(fContext = mActivity)
         RewardVideoHelper.loadRewardVideoAd(fContext = mActivity)
+        InterstitialRewardHelper.loadRewardedInterstitialAd(fContext = mActivity)
 
         NativeAdvancedHelper.loadNativeAdvancedAd(fContext = mActivity, NativeAdsSize.Big, mBinding.flNativeAdPlaceHolderBig)
         NativeAdvancedHelper.loadNativeAdvancedAd(fContext = mActivity, NativeAdsSize.Medium, mBinding.flNativeAdPlaceHolderMedium)
@@ -56,12 +59,31 @@ class LoadAdActivity : BaseBindingActivity<ActivityLoadAdBinding>() {
                 mBinding.showRewardVideoAds.isEnabled = true
             }
         )
+
+        mBinding.showRewardInterstitialAds.alpha = 0.5f
+        mBinding.showRewardInterstitialAds.isEnabled = false
+
+        mActivity.isShowRewardedInterstitialAd(
+            onStartToLoadRewardedInterstitialAd = {
+                mBinding.showRewardInterstitialAds.alpha = 0.5f
+                mBinding.showRewardInterstitialAds.isEnabled = false
+            },
+            onUserEarnedReward = { isUserEarnedReward ->
+                Log.e(TAG, "initView: isUserEarnedReward::$isUserEarnedReward")
+                mBinding.showRewardInterstitialAds.alpha = 0.5f
+                mBinding.showRewardInterstitialAds.isEnabled = false
+            },
+            onAdLoaded = {
+                mBinding.showRewardInterstitialAds.alpha = 1f
+                mBinding.showRewardInterstitialAds.isEnabled = true
+            }
+        )
     }
 
     override fun initViewListener() {
         super.initViewListener()
 
-        setClickListener(mBinding.showInterstitialAds, mBinding.showRewardVideoAds)
+        setClickListener(mBinding.showInterstitialAds, mBinding.showRewardVideoAds, mBinding.showRewardInterstitialAds)
     }
 
     override fun onClick(v: View) {
@@ -73,6 +95,9 @@ class LoadAdActivity : BaseBindingActivity<ActivityLoadAdBinding>() {
             }
             mBinding.showRewardVideoAds -> {
                 mActivity.showRewardVideoAd()
+            }
+            mBinding.showRewardInterstitialAds -> {
+                mActivity.showRewardedInterstitialAd()
             }
         }
     }

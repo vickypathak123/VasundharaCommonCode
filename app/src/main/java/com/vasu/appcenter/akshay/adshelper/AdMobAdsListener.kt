@@ -4,6 +4,7 @@ package com.vasu.appcenter.akshay.adshelper
 
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.rewarded.RewardedAd
+import com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAd
 
 /**
  * @author Akshay Harsoda
@@ -43,6 +44,13 @@ interface AdMobAdsListener {
     fun onRewardVideoAdLoaded(rewardedAd: RewardedAd) {}
 
     /**
+     * This method is called when your Reward Interstitial AD data was loaded successfully
+     *
+     * @param rewardedInterstitialAd it's a reference to your Rewarded Interstitial Ad
+     */
+    fun onRewardInterstitialAdLoaded(rewardedInterstitialAd: RewardedInterstitialAd) {}
+
+    /**
      * This method is called when your Reward Video AD was closed after successfully showing to the user
      * And it will notify you if user earned any reward
      *
@@ -54,4 +62,9 @@ interface AdMobAdsListener {
      * This method is called when your Reward Video AD was start to load new AD
      */
     fun onStartToLoadRewardVideoAd() {}
+
+    /**
+     * This method is called when your Reward Interstitial AD was start to load new AD
+     */
+    fun onStartToLoadRewardedInterstitialAd() {}
 }

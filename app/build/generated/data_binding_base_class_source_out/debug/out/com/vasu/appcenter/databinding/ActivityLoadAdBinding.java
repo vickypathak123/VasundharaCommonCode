@@ -36,19 +36,24 @@ public final class ActivityLoadAdBinding implements ViewBinding {
   public final Button showInterstitialAds;
 
   @NonNull
+  public final Button showRewardInterstitialAds;
+
+  @NonNull
   public final Button showRewardVideoAds;
 
   private ActivityLoadAdBinding(@NonNull ConstraintLayout rootView,
       @NonNull FrameLayout flNativeAdPlaceHolderBig,
       @NonNull FrameLayout flNativeAdPlaceHolderMedium,
       @NonNull FrameLayout flNativeAdPlaceHolderSmall, @NonNull AllScreenHeaderBinding layoutHeader,
-      @NonNull Button showInterstitialAds, @NonNull Button showRewardVideoAds) {
+      @NonNull Button showInterstitialAds, @NonNull Button showRewardInterstitialAds,
+      @NonNull Button showRewardVideoAds) {
     this.rootView = rootView;
     this.flNativeAdPlaceHolderBig = flNativeAdPlaceHolderBig;
     this.flNativeAdPlaceHolderMedium = flNativeAdPlaceHolderMedium;
     this.flNativeAdPlaceHolderSmall = flNativeAdPlaceHolderSmall;
     this.layoutHeader = layoutHeader;
     this.showInterstitialAds = showInterstitialAds;
+    this.showRewardInterstitialAds = showRewardInterstitialAds;
     this.showRewardVideoAds = showRewardVideoAds;
   }
 
@@ -110,6 +115,12 @@ public final class ActivityLoadAdBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.show_reward_interstitial_ads;
+      Button showRewardInterstitialAds = ViewBindings.findChildViewById(rootView, id);
+      if (showRewardInterstitialAds == null) {
+        break missingId;
+      }
+
       id = R.id.show_reward_video_ads;
       Button showRewardVideoAds = ViewBindings.findChildViewById(rootView, id);
       if (showRewardVideoAds == null) {
@@ -118,7 +129,7 @@ public final class ActivityLoadAdBinding implements ViewBinding {
 
       return new ActivityLoadAdBinding((ConstraintLayout) rootView, flNativeAdPlaceHolderBig,
           flNativeAdPlaceHolderMedium, flNativeAdPlaceHolderSmall, binding_layoutHeader,
-          showInterstitialAds, showRewardVideoAds);
+          showInterstitialAds, showRewardInterstitialAds, showRewardVideoAds);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

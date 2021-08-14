@@ -1,22 +1,22 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:75:9-83:20
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:86:9-94:20
 MERGED from [com.github.jignesh8992:Utilities:2.4] /Users/android/.gradle/caches/transforms-3/c23eba931f06291070fc771f0f18fcaf/transformed/jetified-Utilities-2.4/AndroidManifest.xml:14:9-22:20
 MERGED from [com.github.jignesh8992:Utilities:2.4] /Users/android/.gradle/caches/transforms-3/c23eba931f06291070fc771f0f18fcaf/transformed/jetified-Utilities-2.4/AndroidManifest.xml:14:9-22:20
 	android:grantUriPermissions
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:79:13-47
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:90:13-47
 	android:authorities
 		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:77:13-64
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:88:13-64
 	android:exported
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:78:13-37
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:89:13-37
 	android:name
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:76:13-62
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:87:13-62
 manifest
-ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-86:12
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-97:12
 MERGED from [androidx.databinding:viewbinding:7.0.0] /Users/android/.gradle/caches/transforms-3/e2d3c678129398660cba23389d0379ce/transformed/jetified-viewbinding-7.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/android/.gradle/caches/transforms-3/c878e41071516ef3fc250897246dfc1e/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [:appcenter] /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/appcenter/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-18:12
@@ -124,22 +124,22 @@ MERGED from [com.android.billingclient:billing:4.0.0] /Users/android/.gradle/cac
 MERGED from [com.isseiaoki:simplecropview:1.1.8] /Users/android/.gradle/caches/transforms-3/d90fd1f792dce21d5b19b1a53c31e467/transformed/jetified-simplecropview-1.1.8/AndroidManifest.xml:2:1-11:12
 MERGED from [it.sephiroth.android.library.easing:library:1.0.2] /Users/android/.gradle/caches/transforms-3/8250ea60bfa5a59628697233a89e5ded/transformed/jetified-library-1.0.2/AndroidManifest.xml:1:116-8:12
 MERGED from [com.google.android.play:core:1.8.0] /Users/android/.gradle/caches/transforms-3/688e45e23a5bff3f5c0fda5b4c057da6/transformed/jetified-core-1.8.0/AndroidManifest.xml:2:1-19:12
-INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-86:12
-INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-86:12
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-97:12
+INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-97:12
 	package
 		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:4:5-33
 		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml
 		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-86:12
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-97:12
 		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-86:12
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:1-97:12
 		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:2:11-69
@@ -198,7 +198,7 @@ ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/ap
 	android:name
 		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:11:22-68
 application
-ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:13:5-84:19
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:13:5-95:19
 MERGED from [:appcenter] /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/appcenter/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-16:19
 MERGED from [:appcenter] /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/appcenter/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-16:19
 MERGED from [:gallery] /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/gallery/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-42:19
@@ -355,42 +355,50 @@ ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/ap
 		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:45:13-51
 	android:name
 		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:43:13-44
+activity#com.vasu.appcenter.SplashActivity
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:53:9-62:20
+	android:screenOrientation
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:55:13-49
+	android:theme
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:56:13-51
+	android:name
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:54:13-43
 activity#com.vasu.appcenter.rateandfeedback.FeedbackActivity
-ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:52:9-54:52
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:63:9-65:52
 	android:screenOrientation
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:54:13-49
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:65:13-49
 	android:name
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:53:13-61
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:64:13-61
 activity#com.vasu.appcenter.MainActivity
-ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:55:9-57:52
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:66:9-68:52
 	android:screenOrientation
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:57:13-49
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:68:13-49
 	android:name
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:56:13-41
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:67:13-41
 service#com.vasu.appcenter.pushnotifications.MyFirebaseMessagingService
-ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:58:9-74:19
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:69:9-85:19
 	android:exported
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:60:13-37
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:71:13-37
 	android:name
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:59:13-73
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:70:13-73
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:61:13-63:29
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:72:13-74:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:62:17-78
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:73:17-78
 	android:name
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:62:25-75
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:73:25-75
 meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:66:13-68:71
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:77:13-79:71
 	android:resource
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:68:17-68
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:79:17-68
 	android:name
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:67:17-87
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:78:17-87
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:71:13-73:58
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:82:13-84:58
 	android:resource
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:73:17-55
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:84:17-55
 	android:name
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:72:17-88
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:83:17-88
 uses-sdk
 INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml
@@ -622,13 +630,13 @@ INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode
 		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml
 		INJECTED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:80:13-82:58
+ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:91:13-93:58
 MERGED from [com.github.jignesh8992:Utilities:2.4] /Users/android/.gradle/caches/transforms-3/c23eba931f06291070fc771f0f18fcaf/transformed/jetified-Utilities-2.4/AndroidManifest.xml:19:13-21:58
 MERGED from [com.github.jignesh8992:Utilities:2.4] /Users/android/.gradle/caches/transforms-3/c23eba931f06291070fc771f0f18fcaf/transformed/jetified-Utilities-2.4/AndroidManifest.xml:19:13-21:58
 	android:resource
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:82:17-55
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:93:17-55
 	android:name
-		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:81:17-67
+		ADDED from /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/AndroidManifest.xml:92:17-67
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [:appcenter] /Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/appcenter/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
 MERGED from [com.github.jignesh8992:Utilities:2.4] /Users/android/.gradle/caches/transforms-3/c23eba931f06291070fc771f0f18fcaf/transformed/jetified-Utilities-2.4/AndroidManifest.xml:11:5-79
