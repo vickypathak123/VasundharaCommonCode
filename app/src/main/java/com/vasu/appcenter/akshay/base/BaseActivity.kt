@@ -91,7 +91,7 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope, View.OnClickL
         super.setContentView(layoutResID)
         initJob()
         initView()
-        loadAds()
+//        loadAds()
         initViewAction()
         initViewListener()
     }
@@ -104,7 +104,7 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope, View.OnClickL
         super.setContentView(view)
         initJob()
         initView()
-        loadAds()
+//        loadAds()
         initViewAction()
         initViewListener()
 
@@ -228,12 +228,13 @@ abstract class BaseActivity : AppCompatActivity(), CoroutineScope, View.OnClickL
      * @param isAddFlag [Default value:- true] for set up your activity flag in your intent
      * @param fBundle lambda fun for pass data throw intent
      */
-    open fun <T : Activity> getActivityIntent(
-        fNextActivityClass: Class<out T>,
+    inline fun <reified T : Activity> getActivityIntent(
+//        fNextActivityClass: Class<out T>,
         isAddFlag: Boolean = true,
         fBundle: Bundle.() -> Unit = {},
     ): Intent {
-        val lIntent = Intent(mActivity, fNextActivityClass)
+//        val lIntent = Intent(mActivity, fNextActivityClass)
+        val lIntent = Intent(mActivity, T::class.java)
 
         if (isAddFlag) {
             lIntent.flags = Intent.FLAG_ACTIVITY_SINGLE_TOP

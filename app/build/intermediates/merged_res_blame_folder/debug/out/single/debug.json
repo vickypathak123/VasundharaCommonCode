@@ -24,6 +24,10 @@
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_google_native_banner_small_ad.xml"
     },
     {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_native_ad_exit_dialog.xml.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/native_ad_exit_dialog.xml"
+    },
+    {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_layout_google_native_dialog_ad.xml.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_google_native_dialog_ad.xml"
     },
@@ -44,6 +48,10 @@
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-xxhdpi_testing_image.jpg.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-xxhdpi/testing_image.jpg"
+    },
+    {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/anim_slide_up.xml.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/anim/slide_up.xml"
     },
@@ -54,6 +62,10 @@
     {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/anim_dialog_slide_bottom.xml.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/anim/dialog_slide_bottom.xml"
     },
     {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_layout_google_native_banner_ad.xml.flat",
@@ -100,6 +112,10 @@
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-xxhdpi_ic_ad_close_new.png.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-xxhdpi/ic_ad_close_new.png"
+    },
+    {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_gif.png.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-mdpi/ic_gif.png"
     },
@@ -144,6 +160,10 @@
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-xhdpi/ic_gif.png"
     },
     {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_native_ad_for_store.xml.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/native_ad_for_store.xml"
+    },
+    {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_activity_feedback.xml.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_feedback.xml"
     },
@@ -172,8 +192,16 @@
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_test.xml"
     },
     {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable_gradiant_ad_button.xml.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable/gradiant_ad_button.xml"
+    },
+    {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_preview_radio_on.webp.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-hdpi/ic_preview_radio_on.webp"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_native_ad_blur_image_ads.xml.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/native_ad_blur_image_ads.xml"
     },
     {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_photo_camera_white_24dp.png.flat",
@@ -200,12 +228,20 @@
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-mdpi/ic_empty_zhihu.png"
     },
     {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_activity_check_apiactivity.xml.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_check_apiactivity.xml"
+    },
+    {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_ic_gif.png.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-xxxhdpi/ic_gif.png"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_dialog_full_screen_native_ad.xml.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/dialog_full_screen_native_ad.xml"
     },
     {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_layout_dialog_exit.xml.flat",
@@ -244,6 +280,14 @@
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/anim_dialog_slide_up.xml.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/anim/dialog_slide_up.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/layout_dialog_full_scree_exit.xml.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/dialog_full_scree_exit.xml"
+    },
+    {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable_shape_submit.xml.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable/shape_submit.xml"
     },
@@ -254,6 +298,10 @@
     {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable-xxhdpi_test_landscape_image.jpeg.flat",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/drawable-xxhdpi/test_landscape_image.jpeg"
     },
     {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/merged_res/debug/drawable_splash_screen_backgroud.xml.flat",

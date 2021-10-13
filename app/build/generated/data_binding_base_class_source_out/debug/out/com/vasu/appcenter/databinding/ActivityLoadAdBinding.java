@@ -36,6 +36,12 @@ public final class ActivityLoadAdBinding implements ViewBinding {
   public final Button showInterstitialAds;
 
   @NonNull
+  public final Button showNativeAdBlurImageAds;
+
+  @NonNull
+  public final Button showNativeAdImageAds;
+
+  @NonNull
   public final Button showRewardInterstitialAds;
 
   @NonNull
@@ -45,7 +51,8 @@ public final class ActivityLoadAdBinding implements ViewBinding {
       @NonNull FrameLayout flNativeAdPlaceHolderBig,
       @NonNull FrameLayout flNativeAdPlaceHolderMedium,
       @NonNull FrameLayout flNativeAdPlaceHolderSmall, @NonNull AllScreenHeaderBinding layoutHeader,
-      @NonNull Button showInterstitialAds, @NonNull Button showRewardInterstitialAds,
+      @NonNull Button showInterstitialAds, @NonNull Button showNativeAdBlurImageAds,
+      @NonNull Button showNativeAdImageAds, @NonNull Button showRewardInterstitialAds,
       @NonNull Button showRewardVideoAds) {
     this.rootView = rootView;
     this.flNativeAdPlaceHolderBig = flNativeAdPlaceHolderBig;
@@ -53,6 +60,8 @@ public final class ActivityLoadAdBinding implements ViewBinding {
     this.flNativeAdPlaceHolderSmall = flNativeAdPlaceHolderSmall;
     this.layoutHeader = layoutHeader;
     this.showInterstitialAds = showInterstitialAds;
+    this.showNativeAdBlurImageAds = showNativeAdBlurImageAds;
+    this.showNativeAdImageAds = showNativeAdImageAds;
     this.showRewardInterstitialAds = showRewardInterstitialAds;
     this.showRewardVideoAds = showRewardVideoAds;
   }
@@ -115,6 +124,18 @@ public final class ActivityLoadAdBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.show_native_ad_blur_image_ads;
+      Button showNativeAdBlurImageAds = ViewBindings.findChildViewById(rootView, id);
+      if (showNativeAdBlurImageAds == null) {
+        break missingId;
+      }
+
+      id = R.id.show_native_ad_image_ads;
+      Button showNativeAdImageAds = ViewBindings.findChildViewById(rootView, id);
+      if (showNativeAdImageAds == null) {
+        break missingId;
+      }
+
       id = R.id.show_reward_interstitial_ads;
       Button showRewardInterstitialAds = ViewBindings.findChildViewById(rootView, id);
       if (showRewardInterstitialAds == null) {
@@ -129,7 +150,8 @@ public final class ActivityLoadAdBinding implements ViewBinding {
 
       return new ActivityLoadAdBinding((ConstraintLayout) rootView, flNativeAdPlaceHolderBig,
           flNativeAdPlaceHolderMedium, flNativeAdPlaceHolderSmall, binding_layoutHeader,
-          showInterstitialAds, showRewardInterstitialAds, showRewardVideoAds);
+          showInterstitialAds, showNativeAdBlurImageAds, showNativeAdImageAds,
+          showRewardInterstitialAds, showRewardVideoAds);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

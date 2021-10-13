@@ -87,7 +87,7 @@ object InterstitialAdHelper {
      *
      * @param fContext this is a reference to your activity context
      */
-    fun loadInterstitialAd(@NonNull fContext: Context) {
+    fun loadInterstitialAd(@NonNull fContext: Context, onAdLoaded: () -> Unit = {}) {
 
         loadAd(fContext, object : AdMobAdsListener {
             override fun onAdLoaded() {
@@ -98,6 +98,7 @@ object InterstitialAdHelper {
                 super.onInterstitialAdLoaded(interstitialAd)
                 mIsAdMobAdLoaded = true
                 mInterstitialAdMob = interstitialAd
+                onAdLoaded.invoke()
             }
 
             override fun onAdFailed() {

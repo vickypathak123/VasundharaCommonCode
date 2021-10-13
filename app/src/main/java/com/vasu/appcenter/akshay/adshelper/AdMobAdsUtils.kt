@@ -2,9 +2,13 @@
 
 package com.vasu.appcenter.akshay.adshelper
 
+import android.app.Activity
 import android.content.Context
+import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
+import android.view.WindowInsets
+import android.view.WindowInsetsController
 import androidx.annotation.StringRes
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
@@ -64,7 +68,7 @@ internal inline val View.gone: View
 fun setTestDeviceIds() {
 
     val lTestDeviceIds = listOf(
-            AdRequest.DEVICE_ID_EMULATOR
+            AdRequest.DEVICE_ID_EMULATOR,
     )
     val lConfiguration = RequestConfiguration.Builder().setTestDeviceIds(lTestDeviceIds).build()
 
@@ -75,5 +79,30 @@ fun setTestDeviceIds() {
  * Extension method for add different size of Native Ad
  */
 enum class NativeAdsSize {
-    Big, Medium, Small
+    Big, Medium, Small, ExitDialog, BlurImageDialog
+}
+
+fun Activity.hideStatusBar() {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+        window.insetsController?.let {
+            it.systemBarsBehavior = WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+            it.hide(WindowInsets.Type.statusBars())
+        }
+    } else {
+        @Suppress("DEPRECATION")
+        window.decorView.systemUiVisibility = (
+                View.SYSTEM_UI_FLAG_FULLSCREEN or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                        or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN)
+    }
+}
+
+fun Activity.showStatusBar() {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+        window.setDecorFitsSystemWindows(false)
+        window.insetsController?.show(WindowInsets.Type.statusBars())
+    } else {
+        @Suppress("DEPRECATION")
+        window.decorView.systemUiVisibility =
+            (View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or View.SYSTEM_UI_FLAG_LAYOUT_STABLE)
+    }
 }

@@ -68,11 +68,41 @@
                 android:text="Show Reward Interstitial Ads"
                 android:textAllCaps="false"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                app:layout_constraintBottom_toTopOf="@+id/fl_native_ad_place_holder_small"
+                app:layout_constraintBottom_toTopOf="@+id/show_native_ad_blur_image_ads"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/show_reward_video_ads" />
+
+            <Button
+                android:id="@+id/show_native_ad_blur_image_ads"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Show Native Ad Blur Image Ads"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:layout_constraintBottom_toTopOf="@+id/show_native_ad_image_ads"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/show_reward_interstitial_ads" />
+
+            <Button
+                android:id="@+id/show_native_ad_image_ads"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Show Native Ad Image Ads"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:layout_constraintBottom_toTopOf="@+id/fl_native_ad_place_holder_small"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/show_native_ad_blur_image_ads" />
 
             <FrameLayout
                 android:id="@+id/fl_native_ad_place_holder_small"
@@ -84,7 +114,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/show_reward_interstitial_ads" />
+                app:layout_constraintTop_toBottomOf="@+id/show_native_ad_image_ads" />
 
             <FrameLayout
                 android:id="@+id/fl_native_ad_place_holder_medium"

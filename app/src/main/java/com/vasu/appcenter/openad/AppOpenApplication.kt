@@ -3,6 +3,7 @@ package com.vasu.appcenter.openad
 import android.util.Log
 import com.google.android.gms.ads.MobileAds
 import com.vasu.appcenter.AppController
+import com.vasu.appcenter.akshay.adshelper.setTestDeviceIds
 
 /**
  * The Application class that manages AppOpenManager.
@@ -16,7 +17,10 @@ import com.vasu.appcenter.AppController
 class AppOpenApplication : AppController() {
     override fun onCreate() {
         super.onCreate()
-        MobileAds.initialize(this) { Log.d(LOG_TAG, "onInitializationComplete.") }
+        MobileAds.initialize(this) {
+            Log.d(LOG_TAG, "onInitializationComplete.")
+            setTestDeviceIds()
+        }
         appOpenManager = AppOpenManager(this)
         appOpenManager!!.fetchAd()
     }

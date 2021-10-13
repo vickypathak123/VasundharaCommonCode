@@ -1,10 +1,10 @@
 package com.vasu.appcenter.akshay.activity
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import android.graphics.Color
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.vasu.appcenter.akshay.adshelper.*
 import com.vasu.appcenter.akshay.adshelper.InterstitialAdHelper.isShowInterstitialAd
 import com.vasu.appcenter.akshay.adshelper.InterstitialRewardHelper.isShowRewardedInterstitialAd
@@ -12,9 +12,13 @@ import com.vasu.appcenter.akshay.adshelper.InterstitialRewardHelper.showRewarded
 import com.vasu.appcenter.akshay.adshelper.RewardVideoHelper.isShowRewardVideoAd
 import com.vasu.appcenter.akshay.adshelper.RewardVideoHelper.showRewardVideoAd
 import com.vasu.appcenter.akshay.base.BaseBindingActivity
+import com.vasu.appcenter.akshay.demo.FullScreenExitDialog
+import com.vasu.appcenter.akshay.demo.FullScreenNativeAdDialog
 import com.vasu.appcenter.databinding.ActivityLoadAdBinding
 
 class LoadAdActivity : BaseBindingActivity<ActivityLoadAdBinding>() {
+
+    private var mFullScreenNativeAdDialog : FullScreenNativeAdDialog? = null
 
     override fun setBinding(layoutInflater: LayoutInflater): ActivityLoadAdBinding {
         return ActivityLoadAdBinding.inflate(layoutInflater)
@@ -40,6 +44,13 @@ class LoadAdActivity : BaseBindingActivity<ActivityLoadAdBinding>() {
 
     override fun initView() {
         super.initView()
+
+//        hideStatusBar()
+
+        setStatusBarColor(Color.RED, StatusIconColorType.Dark)
+//        setStatusBarColor(Color.RED)
+
+        mFullScreenNativeAdDialog = FullScreenNativeAdDialog(mActivity)
 
         mBinding.showRewardVideoAds.alpha = 0.5f
         mBinding.showRewardVideoAds.isEnabled = false
@@ -83,15 +94,19 @@ class LoadAdActivity : BaseBindingActivity<ActivityLoadAdBinding>() {
     override fun initViewListener() {
         super.initViewListener()
 
-        setClickListener(mBinding.showInterstitialAds, mBinding.showRewardVideoAds, mBinding.showRewardInterstitialAds)
+        setClickListener(
+            mBinding.showInterstitialAds,
+            mBinding.showRewardVideoAds,
+            mBinding.showRewardInterstitialAds,
+            mBinding.showNativeAdBlurImageAds,
+            mBinding.showNativeAdImageAds,
+        )
     }
 
     override fun onClick(v: View) {
         when (v) {
             mBinding.showInterstitialAds -> {
-                mActivity.isShowInterstitialAd {
-
-                }
+                mActivity.isShowInterstitialAd { }
             }
             mBinding.showRewardVideoAds -> {
                 mActivity.showRewardVideoAd()
@@ -99,6 +114,24 @@ class LoadAdActivity : BaseBindingActivity<ActivityLoadAdBinding>() {
             mBinding.showRewardInterstitialAds -> {
                 mActivity.showRewardedInterstitialAd()
             }
+            mBinding.showNativeAdBlurImageAds -> {
+//                FullScreenNativeAdDialog(mActivity).show()
+                mFullScreenNativeAdDialog?.showFullScreenNativeAdDialog()
+            }
+            mBinding.showNativeAdImageAds -> {
+            }
+        }
+    }
+
+    var mFullScreenExitDialog: FullScreenExitDialog? = null
+
+    override fun onBackPressed() {
+        if (mFullScreenExitDialog == null) {
+            mFullScreenExitDialog = FullScreenExitDialog(mActivity)
+        }
+
+        mFullScreenExitDialog?.showFullScreenExitDialog {
+
         }
     }
 }
