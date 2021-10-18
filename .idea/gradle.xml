@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/appcenter" />
             <option value="$PROJECT_DIR$/daliynotification" />
             <option value="$PROJECT_DIR$/gallery" />
+            <option value="$PROJECT_DIR$/newAppCenter" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -19,22 +19,29 @@
         <entry key="app/src/main/res/layout/layout_google_native_dialog_ad.xml" value="0.33697916666666666" />
         <entry key="app/src/main/res/layout/native_ad_blur_image_ads.xml" value="0.33697916666666666" />
         <entry key="app/src/main/res/layout/native_ad_exit_dialog.xml" value="0.5086477987421384" />
-        <entry key="app/src/main/res/layout/native_ad_for_store.xml" value="0.6336302895322939" />
+        <entry key="app/src/main/res/layout/native_ad_for_store.xml" value="0.6073059360730594" />
         <entry key="app/src/main/res/layout/test_layout.xml" value="0.33697916666666666" />
         <entry key="app/src/main/res/layout/view_gift_ad.xml" value="0.33697916666666666" />
         <entry key="appcenter/src/main/res/drawable/progress.xml" value="0.3572916666666667" />
         <entry key="appcenter/src/main/res/drawable/shape_category_selected.xml" value="0.30462962962962964" />
         <entry key="appcenter/src/main/res/drawable/shape_download.xml" value="0.3572916666666667" />
+        <entry key="appcenter/src/main/res/drawable/shape_white.xml" value="0.3572916666666667" />
         <entry key="appcenter/src/main/res/layout/activity_more_apps.xml" value="0.33697916666666666" />
         <entry key="appcenter/src/main/res/layout/fragment_home.xml" value="0.33697916666666666" />
         <entry key="appcenter/src/main/res/layout/fragment_more_app.xml" value="0.33697916666666666" />
+        <entry key="appcenter/src/main/res/layout/layout_backpressed.xml" value="0.33697916666666666" />
         <entry key="appcenter/src/main/res/layout/layout_no_internet.xml" value="0.33697916666666666" />
         <entry key="appcenter/src/main/res/layout/layout_progress.xml" value="0.33697916666666666" />
-        <entry key="appcenter/src/main/res/layout/layout_tops_more_apps.xml" value="0.67" />
+        <entry key="appcenter/src/main/res/layout/layout_tops_more_apps.xml" value="0.5712309820193637" />
         <entry key="appcenter/src/main/res/layout/layout_went_wrong.xml" value="0.33697916666666666" />
         <entry key="appcenter/src/main/res/layout/list_item_back_apps.xml" value="0.33697916666666666" />
+        <entry key="appcenter/src/main/res/layout/list_item_more_apps.xml" value="0.33697916666666666" />
+        <entry key="appcenter/src/main/res/layout/list_item_other_apps.xml" value="0.33697916666666666" />
+        <entry key="appcenter/src/main/res/layout/list_item_top_slider.xml" value="0.33697916666666666" />
+        <entry key="appcenter/src/main/res/layout/list_itme_top_three_apps.xml" value="0.33697916666666666" />
         <entry key="appcenter/src/main/res/layout/slider_view.xml" value="0.33697916666666666" />
         <entry key="newAppCenter/src/main/res/layout/activity_more_apps.xml" value="0.33697916666666666" />
+        <entry key="newAppCenter/src/main/res/layout/layout_no_internet.xml" value="0.33697916666666666" />
       </map>
     </option>
   </component>

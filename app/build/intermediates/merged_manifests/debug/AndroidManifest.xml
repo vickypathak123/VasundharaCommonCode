@@ -52,7 +52,6 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
@@ -80,11 +79,13 @@
         <activity
             android:name="com.vasu.appcenter.akshay.activity.LoadAdActivity"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
         <activity
             android:name="com.vasu.appcenter.offlineads.OfflineAdActivity"
@@ -113,14 +114,11 @@
             android:name="com.vasu.appcenter.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/SplashViewTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <!--
-             <intent-filter>
-                 <action android:name="android.intent.action.MAIN" />
-
-                 <category android:name="android.intent.category.LAUNCHER" />
-             </intent-filter>
-            -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.vasu.appcenter.rateandfeedback.FeedbackActivity"
@@ -155,6 +153,10 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
+        <activity
+            android:name="com.example.latest.vasu.newappcenter.MoreAppsActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.appcenter.MoreAppsActivity"
             android:screenOrientation="portrait" /> <!-- Activities for Gallery -->

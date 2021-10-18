@@ -4,7 +4,17 @@
             "outputFile": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/android/.gradle/caches/transforms-3/3acd31f21b8cf9ee48454b3c2b027de9/transformed/appcompat-1.3.1/res/values-v28/values-v28.xml",
+                    "source": "/Users/android/.gradle/caches/transforms-3/317700fe36f9a382142576938b0ae630/transformed/material-1.4.0/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,231,319,407,494,581,668",
+                        "endColumns": "87,87,87,87,86,86,86,86",
+                        "endOffsets": "138,226,314,402,489,576,663,750"
+                    }
+                },
+                {
+                    "source": "/Users/android/.gradle/caches/transforms-3/1aafbcf7fb32acbea5ecd789dee9c2e5/transformed/appcompat-1.3.1/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -20,16 +30,6 @@
                         "endLines": "10,11,15,19",
                         "endColumns": "74,86,12,12",
                         "endOffsets": "825,912,1142,1384"
-                    }
-                },
-                {
-                    "source": "/Users/android/.gradle/caches/transforms-3/e1bc4d1b21126103e0adc10fbe2fc8a6/transformed/material-1.4.0/res/values-v28/values-v28.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,143,231,319,407,494,581,668",
-                        "endColumns": "87,87,87,87,86,86,86,86",
-                        "endOffsets": "138,226,314,402,489,576,663,750"
                     }
                 }
             ]

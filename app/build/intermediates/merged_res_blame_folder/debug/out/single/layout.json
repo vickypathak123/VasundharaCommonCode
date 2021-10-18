@@ -28,16 +28,16 @@
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_gift_icon.xml"
     },
     {
-        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_google_native_dialog_ad.xml",
-        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_google_native_dialog_ad.xml"
-    },
-    {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/native_ad_blur_image_ads.xml",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/native_ad_blur_image_ads.xml"
     },
     {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/native_ad_for_store.xml",
         "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/native_ad_for_store.xml"
+    },
+    {
+        "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_google_native_dialog_ad.xml",
+        "source": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/src/main/res/layout/layout_google_native_dialog_ad.xml"
     },
     {
         "merged": "/Volumes/Extra/Drive E/Work Space/Common-Code/VasundharaCommonCode/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_google_native_banner_small_ad.xml",

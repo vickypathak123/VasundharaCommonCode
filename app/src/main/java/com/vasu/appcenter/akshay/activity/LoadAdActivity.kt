@@ -47,7 +47,7 @@ class LoadAdActivity : BaseBindingActivity<ActivityLoadAdBinding>() {
 
 //        hideStatusBar()
 
-        setStatusBarColor(Color.RED, StatusIconColorType.Dark)
+//        setStatusBarColor(Color.RED, StatusIconColorType.Dark)
 //        setStatusBarColor(Color.RED)
 
         mFullScreenNativeAdDialog = FullScreenNativeAdDialog(mActivity)
